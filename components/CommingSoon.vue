@@ -59,8 +59,9 @@
   </div>
 </template>
 
+<script setup></script>
+
 <style scoped>
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap);
 .container {
   height: 100vh;
   width: 100%;
@@ -78,7 +79,6 @@
   font-weight: 900;
   color: #41b1b4;
   letter-spacing: 0.1rem;
-  font-family: "Roboto", sans-serif;
 }
 
 .info-text {
