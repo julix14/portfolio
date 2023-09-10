@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <div class="top-shape">
+  <div class="h-screen w-full flex justify-center items-center bg-gray-900">
+    <div class="absolute top-0 left-0 w-full overflow-hidden">
       <svg
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
@@ -23,17 +23,29 @@
         ></path>
       </svg>
     </div>
-    <div>
-      <p id="comming-soon">Comming soon...</p>
-      <p class="info-text">
-        On this page the Portfolio of Julius Becker is under construction
+    <div class="text-center">
+      <p
+        class="text-5xl text-teal-400 font-extrabold mb-8 tracking-wide"
+        id="comming-soon"
+      >
+        Coming soon...
       </p>
-      <p class="info-text">
+      <p class="text-xl text-teal-400 font-medium leading-9 tracking-wide">
+        On this page, the Portfolio of Julius Becker is under construction
+      </p>
+      <p class="text-xl text-teal-400 font-medium leading-9 tracking-wide">
         In the meantime you can hit me up on my
-        <a href="https://www.linkedin.com/in/juliusbecker/"> LinkedIn </a>
+        <a
+          href="https://www.linkedin.com/in/juliusbecker/"
+          class="text-teal-400 underline"
+        >
+          LinkedIn
+        </a>
       </p>
     </div>
-    <div class="bottom-shape">
+    <div
+      class="absolute bottom-0 left-0 w-full overflow-hidden transform rotate-180"
+    >
       <svg
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
@@ -58,81 +70,3 @@
     </div>
   </div>
 </template>
-
-<script setup></script>
-
-<style scoped>
-.container {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #121317;
-  margin: 0;
-}
-
-#comming-soon {
-  font-size: 5rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  font-weight: 900;
-  color: #41b1b4;
-  letter-spacing: 0.1rem;
-}
-
-.info-text {
-  font-size: 1.5rem;
-  font-weight: 500;
-  text-align: center;
-  color: #41b1b4;
-  line-height: 3rem;
-  letter-spacing: 0.1rem;
-  font-family: "Roboto", sans-serif;
-}
-
-.info-text a {
-  color: #41b1b4;
-}
-
-.bottom-shape {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.bottom-shape svg {
-  position: relative;
-  display: block;
-  width: calc(165% + 1.3px);
-  height: 232px;
-}
-
-.bottom-shape .shape-fill {
-  fill: #41b1b4;
-}
-
-.top-shape {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.top-shape svg {
-  position: relative;
-  display: block;
-  width: calc(165% + 1.3px);
-  height: 232px;
-}
-
-.top-shape .shape-fill {
-  fill: #41b1b4;
-}
-</style>

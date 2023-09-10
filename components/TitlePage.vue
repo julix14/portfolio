@@ -1,7 +1,9 @@
 <template>
-  <div class="container">
-    <div id="left" class="content-block"></div>
-    <div id="right" class="content-block"></div>
+  <div
+    class="h-screen w-full flex justify-center items-center bg-[#121317] m-0"
+  >
+    <div id="left" class="h-full w-1/2 relative border border-[#41b1b4]"></div>
+    <div id="right" class="h-full w-1/2 relative border border-[#41b1b4]"></div>
   </div>
   <Aura />
 </template>
@@ -9,22 +11,3 @@
 <script setup>
 import Aura from "@/components/Aura.vue";
 </script>
-
-<style scoped>
-.container {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #121317;
-  margin: 0;
-}
-
-.content-block {
-  height: 100%;
-  width: 50%;
-  position: relative;
-  border: 1px solid #41b1b4;
-}
-</style>

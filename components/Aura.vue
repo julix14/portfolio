@@ -1,6 +1,6 @@
 <template>
   <div
-    class="cursor-aura"
+    class="cursor-aura pointer-events-none fixed top-0 right-0 bottom-0 left-0 z-30 transition-all duration-300 lg:absolute"
     :style="{
       background:
         'radial-gradient(600px at ' +
@@ -26,22 +26,3 @@ function updateCursorPosition(event) {
   cursorY.value = event.clientY;
 }
 </script>
-
-<style scoped>
-.cursor-aura {
-  pointer-events: none;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 30;
-  transition: all 300ms;
-}
-
-@media (min-width: 1024px) {
-  .cursor-aura {
-    position: absolute;
-  }
-}
-</style>
