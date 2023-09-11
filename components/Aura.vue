@@ -3,7 +3,7 @@
     class="cursor-aura pointer-events-none fixed top-0 right-0 bottom-0 left-0 z-30 transition-all duration-300 lg:absolute"
     :style="{
       background:
-        'radial-gradient(600px at ' +
+        'radial-gradient(150px at ' +
         cursorX +
         'px ' +
         cursorY +
