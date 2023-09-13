@@ -1,0 +1,81 @@
+<li>
+              <div
+                class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                <header>2022-Present</header>
+                <div>
+                  <h3>
+                    <a
+                      href="https://www.kopf3.de/"
+                      ref="noreferrer"
+                      target="_blank">
+                      <span
+                        class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                      <span
+                        >Junior Software Developer ⎯
+                        <span> Kopfhoch3 GmbH </span>
+                      </span>
+                    </a>
+                    <div>
+                      <div
+                        class="text-slate-500"
+                        aria-hidden="true">
+                        Working Student
+                      </div>
+                    </div>
+                  </h3>
+                  <p class="mt-2 text-sm leading-normal">
+                    After a six week internship at Kopfhoch3, I was offered a
+                    position as a working student. Since then I have been
+                    working on various projects, including the development of a
+                    reporting tools for the finance industry or the creation of
+                    different web applications.
+                  </p>
+                  <ul
+                    class="flex flex-wrap"
+                    aria-label="Used technologies">
+                    <li>
+                      <div
+                        class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Java
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Kotlin
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Spring
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        JavaScript
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        PHP
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Vue.js
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        Laravel
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
